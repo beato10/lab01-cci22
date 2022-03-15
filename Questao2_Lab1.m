@@ -40,6 +40,7 @@ xlabel('operação');
 ylabel('tempo');
 legend('multiplicação','dot','for');
 title('tempo dos produtos internos');
+grid
 print -dpng -r400 grafico1q2.png
 
 
@@ -67,6 +68,7 @@ xlabel('operação');
 ylabel('tempo médio');
 legend('multiplicação','dot','for');
 title('tempo médio dos produtos internos');
+grid
 print -dpng -r400 grafico2q2.png
 
 function [pInt] = pInterno(x, y, dim)

@@ -25,6 +25,7 @@ xlabel('operação');
 ylabel('tempo');
 legend('multiplicação','for');
 title('tempo dos produtos de matrizes');
+grid
 print -dpng -r400 grafico3q3.png
 
 
